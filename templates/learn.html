@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'learn.js') }}"></script>
+<script>
+    let wine = {{wine|tojson}}
+    let wines = {{wines|tojson}}
+</script>
+
+<div id="learn-container">
+    <img id="background-image" src="{{ url_for('static', filename = 'images/kitchen.jpg') }}">
+    <div id="learn-instructions">
+        CLICK A WINE TO LEARN MORE ABOUT IT
+    </div>
+</div>
+
+{% endblock %}

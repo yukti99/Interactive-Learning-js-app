@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{{url_for('static', filename='quiz.css')}}" />
+<script type="text/javascript" src="{{ url_for('static', filename = 'endquiz.js') }}"></script>
+<script>
+    let quiz_score = {{score|tojson}}
+    let date_time = {{datetime|tojson}}
+</script>
+
+<div class="container" id="quiz-container">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2 col-2" id="left-col">
+            <img alt="pouring wine" src="../static/images/red-pour.png" id="pour-wine-img">
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8 col-8" id="mid-col">
+
+            <div id="quiz-message">
+                <b><p>final scores</p></b>
+            </div>
+            <div id="endscores-container">
+                <div id="endscores-message">
+                    <div id="food-message">
+                        <b><p></p></b>
+                    </div>
+                    <div id="wine-message">
+                        <b><p></p></b>
+                    </div>
+                    <div id="total-message">
+                        <b><p></p></b>
+                    </div>
+                </div>
+            </div>
+            <div id="end-page-btns">
+                <div id="exit-button">
+                    exit
+                </div>
+                <div id="past-scores-button">
+                    Past Scores
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2 col-2" id="right-col">
+            <img alt="pouring wine" src="../static/images/sparkling-pour.png" id="sparkling-wine-img">
+        </div>
+    </div>
+    
+</div>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="{{url_for('static', filename='home.css')}}" />
+<div id="home-background"></div>
+<div id="home-container">
+    <img id="home-image" src="{{ url_for('static', filename = 'images/sparkling-pour.png') }}">
+    <div id="welcome-message">
+        <p id="welcome-message-title">WINE & DINE</p>
+        <p id="intro">an interactive journey to learn about four primary types of wines</p>
+        <div class="row" id="home-wine-display">
+            <img class="home-wine-img col-3" src="{{ url_for('static', filename = 'images/red.png') }}">
+            <img class="home-wine-img col-3" src="{{ url_for('static', filename = 'images/white.png') }}">
+            <img class="home-wine-img col-3" src="{{ url_for('static', filename = 'images/rose.png') }}">
+            <img class="home-wine-img col-3" src="{{ url_for('static', filename = 'images/sparkling.png') }}">
+        </div>
+        <div id="start-button">
+            start
+        </div>
+    </div>
+</div>
+
+{% endblock %}6

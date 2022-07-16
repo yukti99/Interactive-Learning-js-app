@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<link rel="stylesheet" href="{{url_for('static', filename='questions.css')}}" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript" src="{{ url_for('static', filename = 'quiz.js') }}"></script>
+<script>
+    let question = {{question|tojson}}
+    let qnum = {{qnum|tojson}}
+    let quiz_score = {{score|tojson}}
+    let wines = {{wines|tojson}}
+</script>
+
+
+<div class="container-fluid" id="quiz-main">
+
+    <!-- <audio id="audio-right" src="../static/audios/right.mp3" style="display: none"></audio>
+    <audio id="audio-wrong" src="../static/audios/wrong.mp3" style="display: none"></audio> -->
+    <div class="row" id="qrow">   
+        <div class="col-md-3 col-sm-3 col-xs-3 col-3">
+            <div class="container" id="score-container">
+                <div id="sname">Food pairings: </div><div id="food-score"></div><div id="sname"></div>
+                <div id="sname">Wine Types: </div><div id="wine-score"></div><div id="sname"></div><br><br>
+                <b><div id="sname">Total Score: </div><div id="total-score"></div><div id="sname"></div></b>
+            </div>              
+        </div>
+        <div class="col-md-9 col-sm-9 col-xs-9 col-9" id="qcol">
+            <div id="dialog" style="display: none" align="center">
+                <b>You have not selected any option! </b><br> Skipping the question would mean losing points.
+            </div>
+            <div id="dialog-hint" style="display: none" align="center">
+                If you use a hint, there will be 50% penalty even if you get the correct answer!
+            </div>
+            <div id="ques-hint" style="display: none" align="center">
+                
+            </div>
+        </div>
+    </div>
+   
+
+</div>
+
+{% endblock %}

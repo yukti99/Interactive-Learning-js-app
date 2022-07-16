@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{{url_for('static', filename='quiz.css')}}" />
+<script type="text/javascript" src="{{ url_for('static', filename = 'quiz.js') }}"></script>
+<script>
+    $(document).ready(function () {
+        $('#quiz-link').addClass("clicked")
+    });
+</script>
+
+
+<div class="container" id="quiz-container">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2 col-2" id="left-col">
+            <img alt="pouring wine" src="../static/images/red-pour.png" id="pour-wine-img">
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8 col-8" id="mid-col">
+
+            <div id="quiz-message">
+                <p id="dark-gray-text">Ready to test your knowledge?</p>
+                <b><p id="quiz-welcome-header" >Click "continue" when you are ready...</p></b>
+            </div>
+            <div id="continue-button">
+                continue
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2 col-2" id="right-col">
+            <img alt="pouring wine" src="../static/images/sparkling-pour.png" id="sparkling-wine-img">
+        </div>
+    </div>
+    
+</div>
+
+{% endblock %}

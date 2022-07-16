@@ -1,0 +1,293 @@
+/*
+ascent: #eb7070
+base: #f4cccc
+dark grey: grey
+light grey: rgba(233, 230, 230, 0.6) 
+*/
+
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+body{
+  background-color:rgba(233, 230, 230, 0.6) !important;
+}
+
+#navtop{
+  height:110px;  
+  font-family: 'Amatic SC';
+  background-color:#f4cccc !important;
+  font-size:30px;
+  
+}
+
+#nav-head{
+  font-size: 60px;
+  font-weight: 550;
+  margin-left:40px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+#nav-head:hover{
+  color:#eb7070;
+  text-shadow: 2px 1px rgb(9, 9, 9);
+}
+
+
+#submit-text{
+  margin-right:0px !important;
+}
+
+#navbar {
+  font-family: 'Amatic SC';
+  height: 120px;
+  padding:20px;
+}
+
+#home-link{
+  font-size: 70px;
+  line-height: 70px;
+  position: absolute;
+  font-weight: bolder;
+  top: 15px;
+  left: 10%;
+}
+
+#home-link:hover{
+  color:#eb7070;
+  text-shadow: 2px 1px rgb(9, 9, 9);
+}
+
+#navbar-options{
+  margin-right:80px;
+}
+
+#nav-head{
+  z-index: 3;
+}
+
+#learn-option, #quiz-option, #past-scores-option{
+  margin-left:30px;
+  white-space: nowrap;
+  font-size: 35px;
+  color:grey;
+  font-weight:bold;
+}
+
+#learn-option:hover, #quiz-option:hover, #past-scores-option:hover{
+  color:#eb7070;
+  text-shadow: 2px 1px rgb(9, 9, 9);
+}
+
+#start-button, #exit-button, #past-scores-button, #continue-button{
+  margin: auto;
+  margin-top: 20px;
+  width: 150px;
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-size: 30px;
+  font-weight: 900;
+  border-radius: 10px; 
+  color:rgba(245, 245, 245, 0.9);
+  background-color: #eb7070;
+  
+} 
+#exit-button, #past-scores-button{
+  margin-top:40px;
+}
+#start-button{
+  margin-bottom:10px;
+}
+#start-button:hover, #exit-button:hover, #past-scores-button:hover, #continue-button:hover{
+  outline: 2px solid #eb7070;
+  color:#eb7070;
+  background-color: #f7e2e2;
+  cursor:pointer; 
+}
+
+
+p{
+  padding-bottom: 0.5cm;
+}
+
+#background-image{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  aspect-ratio: 5/3;
+}
+
+.learn-img:hover {
+  box-shadow: 0 0 20px rgba(244, 204, 204, 1); 
+}
+
+#reds-learn-image{
+  height: 130px;
+  position: fixed;
+  top: 53%;
+  left: 22%;
+}
+
+#whites-learn-image{
+  height: 130px;
+  position: fixed;
+  top: 51%;
+  left: 30%;
+}
+
+#roses-learn-image{
+  height: 130px;
+  position: fixed;
+  top: 53%;
+  left: 42%;
+}
+
+#sparklings-learn-image{
+  height: 130px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+#groceries-learn-image{
+  height: 130px;
+  position: fixed;
+  top: 53%;
+  left: 57%;
+}
+
+#learn-instructions{
+  position: fixed;
+  border: 3px solid white;
+  color: white;
+  font-size: 3vw;
+  font-family: 'Amatic SC';
+  padding: 10px;
+  top: 85%;
+  left: 20%;
+}
+
+#wine-card{
+  position: absolute;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width:1100px;
+  height:600px;
+  padding:3rem;
+  font-family: 'Amatic SC';
+  border: 2px solid #f4cccc;
+}
+
+.card-container{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+
+#exit-image{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+}
+#exit-image:hover{
+  opacity: .5;
+}
+
+#wineName{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 55px;
+  font-weight: bolder;
+  
+}
+
+#foodTitle{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+#card-wine-image{
+  padding-top: 30px;
+  margin-left: 40px;
+  height: 350px;
+  width: 100%;
+}
+
+#info{
+  font-size: 25px;
+}
+
+#trademarkTitle{
+  font-weight: bolder;
+  margin-top: 35px;
+  color:#eb7070;
+}
+
+#commonTitle{
+  font-weight: bolder;
+  margin-top: 35px;
+  color:#eb7070;
+}
+
+#info > div {
+  margin-left: 80px;
+}
+
+#trademarkList {
+  margin-left: 40px;
+  color:rgb(110, 110, 110);
+  font-weight: bold;
+}
+
+#commonList{
+  margin-left: 10px;
+  list-style-type: none;
+  color:rgb(110, 110, 110);
+  font-weight: bold;
+}
+
+.sound-button{
+  height: 25px;
+  margin-right: 10px;
+}
+
+#foodGrid{
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.food-container{
+  margin:0;
+  padding:0;
+}
+
+.food-pairing-image{
+  width: 100%;
+  height: 150px;
+  border: 3px solid #f4cccc;
+}
+
+.food-pairing-name{
+  font-size: 20px;
+  position: absolute;
+  background-color: #f4cccc;
+  padding: 5px;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.clicked{
+  color:#eb7070 !important;
+  text-shadow: 2px 1px rgb(9, 9, 9);
+}
+

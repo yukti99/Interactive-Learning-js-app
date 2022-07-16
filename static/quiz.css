@@ -1,0 +1,181 @@
+body{
+    background-color: whitesmoke;
+    
+}
+
+#quiz-container{
+    background-color: white;
+    border-radius: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:1rem;
+    margin-top:2rem;
+    width:120%;
+    padding:3rem;
+    border: 2px solid #f4cccc;       
+}
+
+#mid-col{
+    text-align: center;
+}
+#pour-wine-img{
+    margin:auto;
+    margin-left:-3rem;
+    height: 30rem;
+    width:18rem;
+    margin-bottom: -3rem;
+}
+#sparkling-wine-img{
+    height:30rem;  
+    margin-left:-11rem;
+    margin-bottom:-5rem;
+}
+#endscores-container{
+    margin:auto;
+    margin-top:10px;
+    height:300px;
+    width:300px;
+    /* border-radius: 10px; */
+    /* background-color: #f5e1e1cf; */
+}
+#pastscores-container{
+    margin:auto;
+    margin-top:10px;
+    height:300px;
+    width:300px;
+    /* border-radius: 10px; */
+    /* background-color: #f5e1e1cf; */
+}
+#score-message,#quiz-message{
+    padding:5px;
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 40px;
+    color:rgb(85, 85, 85);
+    font-weight: bold;
+}
+#endscores-message{
+    padding:5px;
+    margin-top:-40px;
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    height:300px;
+    overflow-y:auto;
+    overflow-x: hidden;
+
+    background-color: #f5e1e1cf; 
+    border: 3px solid #eb7070;
+    outline: 5px solid #f4cccc;
+    outline-offset: 2px;
+    /* border-radius: 50px; */
+    border-radius: 25px;
+    
+}
+#pastscores-message{
+    padding:5px;
+    margin-top:-40px;
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+    height:300px;
+    overflow-y:auto;
+    overflow-x: hidden;
+
+    background-color: #f5e1e1cf; 
+    border: 3px solid #eb7070;
+    outline: 5px solid #f4cccc;
+    outline-offset: 2px;
+    /* border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px; */
+    border-radius: 25px;
+}
+
+.scroller{
+    scrollbar-color: #eb7070 #f4cccc;
+}
+
+#food-message, #wine-message, #total-message{
+    padding:20px;
+    margin-top: 10px;
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 28px;
+}
+
+.center{
+    text-align: center;
+}
+#continue-btn{
+    outline: 1px solid black;
+    border-radius: 10px;
+    margin:auto;
+    width:25%;
+    text-align: center;
+    justify-content: center;
+    padding:5px;
+    font-size: 25px ;
+    font-family: 'Amatic SC';
+    background-color: #f4cccc;
+    
+}
+#end-page-btns{
+    margin:auto;
+    width:50%;
+    display: flex;
+}
+
+#exitquiz-btn,#pastscores-btn{
+    outline: 1px solid black;
+    border-radius: 10px;
+    margin:auto;
+    margin-top:30px;
+    width:25%;
+    text-align: center;
+    justify-content: center;
+    padding:5px;
+    font-size: 25px ;
+    font-family: 'Amatic SC';
+    background-color: #f4cccc;
+
+}
+
+
+#empty-scores{
+    padding:5px;
+    margin-top:-50px;
+    font-family: 'Amatic SC';
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.score{
+    font-weight: bolder;
+    display: inline-block;
+    margin-left:15px;
+    font-size: 30px;
+}
+
+.date{
+    display: inline-block;
+    color:rgb(103, 103, 103);
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+    display: inline-block;
+}
+
+#navtop{
+    background-color:#f4cccc !important;
+}
+
+
+#quiz-message{
+    color:rgb(97, 95, 95);
+    font-size: 40px;
+}

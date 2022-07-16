@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<link rel="stylesheet" href="{{url_for('static', filename='quiz.css')}}" />
+<script type="text/javascript" src="{{ url_for('static', filename = 'pastscore.js') }}"></script>
+<script>
+    let past_score = {{past_score|tojson}}
+</script>
+
+<div class="container" id="quiz-container">
+    <div class="row">
+        <div class="col-md-2 col-sm-2 col-xs-2 col-2" id="left-col">
+            <img alt="pouring wine" src="../static/images/red-pour.png" id="pour-wine-img">
+        </div>
+        <div class="col-md-8 col-sm-8 col-xs-8 col-8" id="mid-col">
+            <div id="score-message">
+                <b><p>past scores</p></b>
+            </div>
+            <div id="pastscores-container">
+                <div class="scroller" id="pastscores-message">
+                    
+                </div>
+            </div>
+            
+            <div id="exit-button">
+                exit
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2 col-2" id="right-col">
+            <img alt="pouring wine" src="../static/images/sparkling-pour.png" id="sparkling-wine-img">
+        </div>
+    </div>
+    
+</div>
+
+{% endblock %}
+
