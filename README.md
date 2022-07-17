@@ -2,10 +2,9 @@
 A Learning CRUD application in Javascript, HTML and CSS to teach various types of wine and their food pairings utilizing interesting and interactive media. 
 
 ### Project Goal 
-The website is created in such a way using visual UI design tools to ensure that a user having no knowlegdge of any topic can easily learn the basics in not more than 10 minutes. The application was created after performing extensive user study to understand what users might consider to be a good way to easily assimilate content for faster and richer learning experience. The website was later tested on users who found significant improvement in their knowledge of the subject after using this website and scored well on the same. 
+The website is created in such a way using visual UI design tools to ensure that a user having no knowlegdge of any topic can easily <b> learn the basics in not more than 10 minutes</b>. The application was created after performing extensive user study to understand what users might consider to be a good way to easily assimilate content for faster and richer learning experience. The website was later tested on users who found significant improvement in their knowledge of the subject after using this website and scored well on the same. 
 
-Demo Link: https://www.youtube.com/watch?v=9ILLX8CTJpI
-
+<b>Demo Link:</b> https://www.youtube.com/watch?v=9ILLX8CTJpI
 
 | | |
 |:-------------------------:|:-------------------------:|
