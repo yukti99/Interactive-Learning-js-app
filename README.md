@@ -6,10 +6,10 @@ Demo Link: https://www.youtube.com/watch?v=9ILLX8CTJpI
 
 | | |
 |:-------------------------:|:-------------------------:|
-|<img src="images/1.png" width="700" height="300" /> | <img src="images/2.png" width="700" height="300" /> |
-|<img src="images/3.png" width="700" height="300" /> | <img src="images/4.png" width="700" height="300" /> |
-|<img src="images/5.png" width="700" height="300" /> | <img src="images/6.png" width="700" height="300" /> |
-|<img src="images/7.png" width="700" height="300" /> | <img src="images/8.png" width="700" height="300" /> |
+|<img src="images/1.png" width="1000" height="300" /> | <img src="images/2.png" width="1000" height="300" /> |
+|<img src="images/3.png" width="1000" height="300" /> | <img src="images/4.png" width="1000" height="300" /> |
+|<img src="images/5.png" width="1000" height="300" /> | <img src="images/6.png" width="1000" height="300" /> |
+|<img src="images/7.png" width="1000" height="300" /> | <img src="images/8.png" width="1000" height="300" /> |
 
 ### Steps to Run
   #### Install virtualenv
